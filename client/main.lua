@@ -11,8 +11,6 @@ local POIOffsets = nil
 local rangDoorbell = nil
 
 
--- Functions
-
 local function RegisterInApartmentTarget(targetKey, coords, heading, options)
     if not InApartment then
         return
