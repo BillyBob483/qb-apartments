@@ -2,7 +2,6 @@ Apartments = {}
 Apartments.Starting = true
 Apartments.SpawnOffset = 30
 
--- target = true
 Apartments.UseTarget = true
 
 Apartments.Locations = {
