@@ -12,7 +12,7 @@ Apartments.Locations = {
         coords = {
             enter = vector4(-269.38, -961.14, 31.22, 117.01),
         },
-        pos = {top = 53.5, left = 63}, --this option only for amir_expert spawn if you not using it pls disable it.
+        pos = {top = 53.5, left = 63},
         polyzoneBoxData = {
             heading = 270,
             minZ = 30.5,
