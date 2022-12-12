@@ -1,8 +1,6 @@
 local ApartmentObjects = {}
 local QBCore = exports['qb-core']:GetCoreObject()
 
--- Functions
-
 local function CreateApartmentId(type)
     local UniqueFound = false
 	local AparmentId = nil
@@ -25,8 +23,6 @@ local function GetApartmentInfo(apartmentId)
     end
     return retval
 end
-
--- Events
 
 RegisterNetEvent('qb-apartments:server:SetInsideMeta', function(house, insideId, bool, isVisiting)
     local src = source
